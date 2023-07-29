@@ -29,8 +29,8 @@ jobs:
       - name: Sync files
         uses: SamKirkland/FTP-Deploy-Action@4.0.0
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}  # Ensure your secret's name is case-sensitive
+          server: jun3010me.sakura.ne.jp
+          username: jun3010me
+          password: Jungaofaigar0  # Ensure your secret's name is case-sensitive
           local-dir: ./public/
           server-dir: /home/jun3010me/www/
