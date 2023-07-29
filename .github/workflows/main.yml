@@ -33,4 +33,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}  # Ensure your secret's name is case-sensitive
           local-dir: ./public/
-          server-dir: /home/jun3010me/www/
+          server-dir: /home/jun3010me/www
