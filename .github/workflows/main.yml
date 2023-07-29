@@ -31,6 +31,6 @@ jobs:
         with:
           server: jun3010me.sakura.ne.jp
           username: jun3010me
-          password: Jungaofaigar0  # Ensure your secret's name is case-sensitive
+          password: Jungaofaigar0
           local-dir: ./public/
           server-dir: /home/jun3010me/www/
